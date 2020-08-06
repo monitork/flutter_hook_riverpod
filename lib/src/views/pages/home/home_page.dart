@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:flutter_wikobo/src/views/pages/splash/splash_page.dart';
+import 'package:flutter_wikobo/src/providers/user_provider.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class HomePage extends HookWidget {
@@ -12,15 +12,23 @@ class HomePage extends HookWidget {
   Widget build(BuildContext context) {
     final state = useProvider(userProvider).state;
     return Scaffold(
-      body: Container(
-        child: Column(
-          children: <Widget>[
-            Text(
-              'Username: ${state.username}',
-              style: Theme.of(context).textTheme.headline5,
-            )
-          ],
-        ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Text(
+            'Username: ${state.name}',
+            style: Theme.of(context).textTheme.headline5,
+          ),
+          Text(
+            'Address: ${state.address.street}  ${state.address.suite}',
+            style: Theme.of(context).textTheme.headline5,
+          ),
+          Text(
+            'Company: ${state.company.name}  ${state.company.catchPhrase}',
+            style: Theme.of(context).textTheme.headline5,
+            textAlign: TextAlign.center,
+          )
+        ],
       ),
     );
   }

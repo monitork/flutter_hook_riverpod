@@ -7,6 +7,10 @@ class AuthPage extends StatelessWidget {
   const AuthPage({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Center(
+        child: FlatButton(onPressed: null, child: Text('Login')),
+      ),
+    );
   }
 }
