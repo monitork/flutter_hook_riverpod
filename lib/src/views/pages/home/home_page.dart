@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:flutter_wikobo/src/providers/user_provider.dart';
+import 'package:flutter_wikobo/src/notifiers/auth_notifier.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class HomePage extends HookWidget {
@@ -10,7 +10,7 @@ class HomePage extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-    final state = useProvider(userProvider).state;
+    final state = useProvider(authProvider.state);
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
