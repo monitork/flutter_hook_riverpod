@@ -1,6 +1,6 @@
 # flutter_hook_riverpod_example
 
-A new Flutter project.
+Example with flutter_hook, hook_riverpod.
 
 ## Getting Started
 
