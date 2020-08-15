@@ -1,4 +1,4 @@
-import 'package:flutter_wikobo/core/utils/shared_preferences.dart';
+import 'package:flutter_hook_riverpod_example/core/utils/shared_preferences.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 const USER_TOKEN = 'USER_TOKEN';

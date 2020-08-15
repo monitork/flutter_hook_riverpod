@@ -1,6 +1,6 @@
 
 import 'package:flutter/services.dart';
-import 'package:flutter_wikobo/src/views/widgets/platform_alert_dialog.dart';
+import 'package:flutter_hook_riverpod_example/src/views/widgets/platform_alert_dialog.dart';
 
 class PlatformExceptionAlertDialog extends PlatformAlertDialog {
   PlatformExceptionAlertDialog({String title, PlatformException exception})

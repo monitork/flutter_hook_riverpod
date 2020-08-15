@@ -1,4 +1,4 @@
-# flutter_wikobo
+# flutter_hook_riverpod_example
 
 A new Flutter project.
 

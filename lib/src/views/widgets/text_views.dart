@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wikobo/core/configs/theme.dart';
+import 'package:flutter_hook_riverpod_example/core/configs/theme.dart';
 
 class FrestTextField extends StatelessWidget {
   final String initialValue, hintText, prefix;

@@ -1,6 +1,6 @@
-import 'package:flutter_wikobo/data/local/user_preference.dart';
-import 'package:flutter_wikobo/data/repository/account_repository.dart';
-import 'package:flutter_wikobo/src/models/user.dart';
+import 'package:flutter_hook_riverpod_example/data/local/user_preference.dart';
+import 'package:flutter_hook_riverpod_example/data/repository/account_repository.dart';
+import 'package:flutter_hook_riverpod_example/src/models/user.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:state_notifier/state_notifier.dart';
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:flutter_wikobo/src/notifiers/auth_notifier.dart';
-import 'package:flutter_wikobo/src/views/widgets/platform_exception_alert_dialog.dart';
+import 'package:flutter_hook_riverpod_example/src/notifiers/auth_notifier.dart';
+import 'package:flutter_hook_riverpod_example/src/views/widgets/platform_exception_alert_dialog.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 final appState = StateProvider((ref) => false);

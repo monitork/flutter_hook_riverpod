@@ -2,10 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_wikobo/src/notifiers/lang_notifier.dart';
-import 'package:flutter_wikobo/src/notifiers/theme_notifier.dart';
-import 'package:flutter_wikobo/src/views/pages/routes.dart';
-import 'package:flutter_wikobo/src/views/pages/splash/splash_page.dart';
+import 'package:flutter_hook_riverpod_example/src/notifiers/lang_notifier.dart';
+import 'package:flutter_hook_riverpod_example/src/notifiers/theme_notifier.dart';
+import 'package:flutter_hook_riverpod_example/src/views/pages/routes.dart';
+import 'package:flutter_hook_riverpod_example/src/views/pages/splash/splash_page.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'core/configs/theme.dart';
